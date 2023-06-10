@@ -18,7 +18,7 @@
   },
   "cypress-cucumber-preprocessor": {
     "nonGlobalStepDefinitions": false,
-    "step_definitions": "cypress/e2e/integration/step_definition",
+    "step_definitions": "cypress/e2e/step_definition",
     "jason": {
       "enabled": true
     }
