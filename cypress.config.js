@@ -7,6 +7,7 @@ module.exports = defineConfig({
     specPattern: '**/*.feature',
     setupNodeEvents(on, config) {
       // implement node event listeners here
+      projectId: "hf7bje",
       on('file:preprocessor', cucumber())
     },
   },
